@@ -1,14 +1,17 @@
-#include<iostream
+#include<iostream>
 #include<string>
 #include<bits/stdc++.h>
+#include<time.h>
 using namespace std;
 int main()
 {
+	srand(time(NULL));
 	int key=rand()%20+10;
 	string s;
 	getline(cin,s);
 	int n=s.length();
 	char sarr[n+1];
+	cout<<char(key)<<endl;
 	strcpy(sarr,s.c_str());
 	char keykar=key;
 	for(int i=0;i<n;i++)
