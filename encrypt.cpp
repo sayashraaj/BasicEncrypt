@@ -11,7 +11,6 @@ int main()
 	getline(cin,s);
 	int n=s.length();
 	char sarr[n+1];
-	cout<<char(key)<<endl;
 	strcpy(sarr,s.c_str());
 	char keykar=key;
 	for(int i=0;i<n;i++)
