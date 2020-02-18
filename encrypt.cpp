@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	srand(time(NULL));
+	srand(time(NULL));	//avoid generation of same keys
 	int key=rand()%20+10;
 	string s;
 	getline(cin,s);
